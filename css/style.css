@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+h1, h2, p {
+  margin-block: 0;
+  margin-inline: 0;
+}
+main {
+  padding: 71px 24px;
+  background: url("../images/pattern-background-mobile.svg") 0 0/100% no-repeat hsl(225, 100%, 94%);
+}
+.order {
+  position: relative;
+  box-sizing: border-box;
+  max-width: 327px;
+  margin: auto;
+  padding: 194px 24px 0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 10px 20px -10px hsl(245, 75%, 52%);
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+}
+.order-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+}
+.order-header {
+  margin: 0 0 17px;
+  font-size: 22px;
+  letter-spacing: 0.4px;
+}
+.order-text {
+  margin: 0 12px 25px 11px;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  line-height: 25px;
+}
+.order-settings {
+  display: flex;
+  margin: 0 0 24px;
+  padding: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 9px;
+}
+.order-settings-image {
+  margin: 0 20px 0 0;
+}
+.order-settings-item {
+  margin: 0 49px 0 0;
+  text-align: left;
+}
+.order-settings-item-header {
+  margin: -2px 0 7px 0;
+  font-size: 15px;
+  letter-spacing: -0.7px;
+}
+.order-settings-item-text {
+  font-size: 13px;
+  letter-spacing: 1.2px;
+}
+.order-settings-btn {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  color: hsla(245, 75%, 52%, 1);
+  transition-duration: 0.3s;
+}
+.order-settings-btn:hover {
+  text-decoration: none;
+  color: hsla(245, 75%, 52%, 0.5);
+}
+.order-btn {
+  display: block;
+  margin: 0 0 27px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px -10px hsl(245, 75%, 52%);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(245, 75%, 52%);
+  transition-duration: 0.3s;
+}
+.order-btn:hover {
+  background-color: hsla(245, 75%, 52%, 0.5);
+}
+.order-cancel {
+  display: block;
+  margin: 0 0 33px;
+  font-size: 15px;
+  font-weight: 700;
+  color: hsla(0, 0%, 0%, 0.5);
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+.order-cancel:hover {
+  color: hsla(0, 0%, 0%, 1);
+}
+@media screen and (min-width: 1440px) {
+  main {
+    padding: 102px 24px;
+    background: url("../images/pattern-background-desktop.svg") 0 0/100% no-repeat hsl(225, 100%, 94%);
+  }
+  .order {
+    max-width: 450px;
+    padding: 270px 50px 0;
+  }
+  .order-header {
+    margin: 0 0 18px;
+    font-size: 28px;
+  }
+  .order-text {
+    margin: 0 18px 20px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .order-settings {
+    margin: 0 0 36px;
+    padding: 23px 22px;
+  }
+  .order-settings-item {
+    margin: 0 94px 0 0;
+  }
+  .order-settings-item-header {
+    margin: 0px 0 9px 0;
+    letter-spacing: 0.4px;
+  }
+  .order-settings-item-text {
+    font-size: 15px;
+  }
+  .order-settings-btn {
+    font-size: 15px;
+    letter-spacing: -0.4px;
+  }
+  .order-btn {
+    margin: 0 0 34px;
+  }
+  .order-cancel {
+    margin: 0 0 50px;
+    font-size: 14px;
+  }
+}
